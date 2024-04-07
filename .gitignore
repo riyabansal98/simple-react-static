@@ -30,3 +30,4 @@ build/
 
 # Env files
 .env
+.vercel

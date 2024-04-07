@@ -29,6 +29,6 @@ jobs:
         vercel-token: ${{ secrets.VERCEL_TOKEN }}
         vercel-org-id: ${{ secrets.VERCEL_ORG_ID }}
         vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }}
-        alias-domains: your-custom-domain.com
+        alias-domains: simple-react-static.vercel.app
         working-directory: ./
         vercel-args: '--prod'  # This is how you can specify production deployment
